@@ -1,0 +1,17 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gallery {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+.gallery-image {
+    display: block;
+    object-fit: cover;
+}
